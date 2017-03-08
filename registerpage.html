@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SoftUni Blog</title>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <link rel="stylesheet" href="styles/customStyle.css.css"/>
+    <script src="scripts/jquery-1.10.2.js"> </script>
+    <script src="scripts/bootstrap.js"></script>
+</head>
+<body>
+
+
+<header>
+    <div class="navbar navbar-default navbar-fixed-top text-uppercase">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">  SOFTUNI BLOG </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span> <!-- adds a line ___ for the mini menu -->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"> Register</a></li>
+                    <li><a href="loginpage.html"> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<main>
+
+    <div class="container body-content">
+        <form class="form-horizontal">
+            <fieldset>
+                <legend>
+                    Register
+                </legend>
+
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="pull-right" for="email">Email</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input  type="text" id="email" class="form-control" placeholder="Email address"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="pull-right" for="fullname">Full Name</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input  type="text" id="fullname" class="form-control" placeholder="Full Name"/>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="pull-right" for="password">Password</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input  type="password" id="password" class="form-control" placeholder="Password"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="pull-right" for="confirm password">Confirm Password</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input  type="password" id="confirm password" class="form-control" placeholder="Confirm Password"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-4 col-md-offset-4">
+                        <button type="reset" class="btn btn-default">Cancel</button>
+                        <a href="indexloggedin.html" class="btn btn-primary">
+                            Register
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                    </div>
+                </div>
+
+
+            </fieldset>
+
+        </form>
+    </div>
+
+</main>
+
+
+<footer class="footer">
+    <div class="container text-center modal-footer">
+        <p>
+            &copy;Lorem Ipsum Cool Blog 2017
+        </p>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
