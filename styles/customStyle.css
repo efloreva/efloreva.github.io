@@ -1,6 +1,5 @@
 .body-content
 {
-
     margin-top: 100px;
 }
 .author
@@ -9,51 +8,4 @@
 }
 .footer{
     margin-top:100px;
-}
-
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    color: initial;
-}
-
-form
-{
-    background: #EEE;
-    display: inline-block;
-}
-
-form span
-{
-    display: inline-block;
-    width: 80px;
-    background: #EEE;
-    margin: 10px 3px 3px 8px;
-
-}
-
-form input,form select
-{
-    width: 150px;
-    height: 20px;
-    margin: 0px  5px;
-    box-sizing: border-box;
-}
-
-/* Махнах това, понеже ми изместваше селект кутийката на Town
-form select
-{
-margin: 1px;
-}
-*/
-
-form input[type='submit']
-{
-    display: block;
-    width: 80px;
-    height: 30px;
-    margin: 10px 0px 12px 98px;
 }
